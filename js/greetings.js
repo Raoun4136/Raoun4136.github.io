@@ -30,7 +30,8 @@ function addEvent(){
 }
 
 function logOut(){
-    console.log("signout!");
+    localStorage.removeItem("username");
+    location.reload();
 }
 
 const savedUsername = localStorage.getItem(USERNAME_KEY);
