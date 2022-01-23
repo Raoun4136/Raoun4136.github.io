@@ -3,13 +3,14 @@ body {
   height: 100%;
 }
 li {
+  border-radius: 5px;
   display: block;
   height: 30px;
   padding: 3px 2px;
   width: 300px;
 }
 li:hover {
-  background-color: rgba(89, 158, 179, 0.479);
+  background-color: rgb(21 39 44 / 80%);
   transition: 0.3s;
   font-size: 15px;
 }
@@ -33,32 +34,75 @@ li:hover {
   justify-items: center;
   height: 100%;
 }
-
+#container1 {
+  display: grid;
+  justify-items: center;
+}
+#main-container {
+  display: grid;
+  justify-content: space-around;
+  align-items: center;
+  justify-items: center;
+  height: 150px;
+}
+/* clock */
 #clock {
+  transition: 0.5s;
   font-size: 100px;
   font-weight: bolder;
 }
+#clock:active {
+  color: rgb(21 39 44 / 100%);
+}
+/* login-form */
 #login-form {
+  margin-top: 5px;
   margin-bottom: 10px;
 }
 #login-form input:first-child {
+  transition: 0.3s;
+  border-radius: 5px;
   width: 240px;
   padding: 5px 10px;
 }
+#login-form input:first-child:hover,
+#login-form input:first-child:focus {
+  background-color: rgb(21 39 44 / 80%);
+  color: white;
+}
 #login-form input:last-child {
+  transition: 0.3s;
+  color: white;
+  border-radius: 5px;
+  background-color: rgb(21 39 44 / 80%);
   width: 57px;
   padding: 5px 2px;
 }
-#greeting {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  font-size: 18px;
-  padding: 25px;
+#login-form input:last-child:hover,
+#login-form input:last-child:active {
+  cursor: pointer;
+  color: black;
+  background-color: white;
+}
+#login-form input:last-child:active {
+  position: relative;
+  top: 2px;
 }
 
+/* todo-form */
 #todo-form {
-  padding: 10px;
+  transition: 0.3s;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+#todo-form input {
+  transition: 0.3s;
+  border-radius: 5px;
+}
+#todo-form input:hover,
+#todo-form input:focus {
+  background-color: rgb(21 39 44 / 80%);
+  color: white;
 }
 #todo-list span {
   display: inline-block;
@@ -78,7 +122,20 @@ li:hover {
 #todo-list {
   text-align: center;
 }
+#todo-list li:active {
+  color: black;
+}
 
+/* greeting */
+#greeting {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  font-size: 17px;
+  padding: 25px;
+}
+
+/* quote */
 #quote {
   position: fixed;
   bottom: 0;
