@@ -14,8 +14,23 @@ function onLoginSubmit(event) {
 }
 
 function paintGreetings(username){
-    greeting.innerText = `Log In [${username}]`;
+    const span1 = document.createElement("span");
+    const span2 = document.createElement("span");
+    span1.innerText = `Log Out`;
+    span2.innerText = `[${username}]`
+    greeting.appendChild(span1);
+    greeting.appendChild(span2);
+    addEvent();
+
     greeting.classList.remove(HIDDEN_CLASSNAME);
+}
+
+function addEvent(){
+    greeting.querySelector("span:first-child").addEventListener("click",logOut);
+}
+
+function logOut(){
+    console.log("signout!");
 }
 
 const savedUsername = localStorage.getItem(USERNAME_KEY);
@@ -25,3 +40,4 @@ if(savedUsername === null){
 } else {
     paintGreetings(savedUsername);
 }
+
