@@ -52,3 +52,5 @@ if (savedToDos !== null) {
     toDos = parsedToDos;
     parsedToDos.forEach(paintToDo);
 }
+
+const button = document.querySelectorAll(button);
