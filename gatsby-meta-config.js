@@ -1,8 +1,8 @@
 module.exports = {
-  title: `raoun4136.github.io`,
+  title: `zoomkoding.com`,
   description: `라운이의 개발일기`,
   language: `ko`, // `ko`, `en` => currently support versions for Korean and English
-  siteUrl: `https://raoun4136.github.io`,
+  siteUrl: `https://www.zoomkoding.com`,
   ogImage: `/og-image.png`, // Path to your in the 'static' folder
   comments: {
     utterances: {
@@ -14,13 +14,13 @@ module.exports = {
     name: `박성오`,
     bio: {
       role: `개발자`,
-      description: ['호기심 많은', '많은 걸 하고싶은', '새로 시작하는'],
+      description: ['사람에 가치를 두는', '능동적으로 일하는', '이로운 것을 만드는'],
       thumbnail: 'sample.png', // Path to the image in the 'asset' folder
     },
     social: {
-      github: `https://github.com/Raoun4136`, // `https://github.com/zoomKoding`,
-      linkedIn: `https://www.linkedin.com/in/raoun4136/`, // `https://www.linkedin.com/in/jinhyeok-jeong-800871192`,
-      email: `qkrtjddh1212@naver.com`, // `zoomkoding@gmail.com`,
+      github: ``, // `https://github.com/zoomKoding`,
+      linkedIn: ``, // `https://www.linkedin.com/in/jinhyeok-jeong-800871192`,
+      email: ``, // `zoomkoding@gmail.com`,
     },
   },
 
@@ -43,12 +43,12 @@ module.exports = {
       // ========================================================
       // ========================================================
       {
-        date: '2022.03.15~',
+        date: '2021.02 ~',
         activity: '개인 블로그 개발 및 운영',
         links: {
           post: '/gatsby-starter-zoomkoding-introduction',
-          github: 'https://github.com/Raoun4136/Raoun4136.github.io',
-          demo: 'https://raoun4136.github.io',
+          github: 'https://github.com/zoomkoding/zoomkoding-gatsby-blog',
+          demo: 'https://www.zoomkoding.com',
         },
       },
     ],
@@ -79,8 +79,8 @@ module.exports = {
         thumbnailUrl: 'blog.png',
         links: {
           post: '/gatsby-starter-zoomkoding-introduction',
-          github: 'https://github.com/Raoun4136/Raoun4136.github.io',
-          demo: 'https://raoun4136.github.io',
+          github: 'https://github.com/zoomkoding/zoomkoding-gatsby-blog',
+          demo: 'https://www.zoomkoding.com',
         },
       },
     ],
