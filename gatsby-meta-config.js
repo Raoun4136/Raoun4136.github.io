@@ -1,8 +1,8 @@
 module.exports = {
-  title: `zoomkoding.com`,
+  title: `raoun4136.github.io`,
   description: `라운이의 개발일기`,
   language: `ko`, // `ko`, `en` => currently support versions for Korean and English
-  siteUrl: `https://www.zoomkoding.com`,
+  siteUrl: `https://raoun4136.github.io`,
   ogImage: `/og-image.png`, // Path to your in the 'static' folder
   comments: {
     utterances: {
@@ -43,12 +43,12 @@ module.exports = {
       // ========================================================
       // ========================================================
       {
-        date: '2021.02 ~',
+        date: '2022.03 15~',
         activity: '개인 블로그 개발 및 운영',
         links: {
           post: '/gatsby-starter-zoomkoding-introduction',
-          github: 'https://github.com/zoomkoding/zoomkoding-gatsby-blog',
-          demo: 'https://www.zoomkoding.com',
+          github: 'https://github.com/Raoun4136/Raoun4136.github.io',
+          demo: 'https://raoun4136.github.io',
         },
       },
     ],
@@ -79,8 +79,8 @@ module.exports = {
         thumbnailUrl: 'blog.png',
         links: {
           post: '/gatsby-starter-zoomkoding-introduction',
-          github: 'https://github.com/zoomkoding/zoomkoding-gatsby-blog',
-          demo: 'https://www.zoomkoding.com',
+          github: 'https://github.com/Raoun4136/Raoun4136.github.io',
+          demo: 'https://raoun4136.github.io',
         },
       },
     ],
