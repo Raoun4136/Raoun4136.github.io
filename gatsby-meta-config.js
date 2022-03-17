@@ -14,13 +14,13 @@ module.exports = {
     name: `박성오`,
     bio: {
       role: `개발자`,
-      description: ['사람에 가치를 두는', '능동적으로 일하는', '이로운 것을 만드는'],
+      description: ['호기심 많은', '열정적인', '최정우 보고있나?'],
       thumbnail: 'sample.png', // Path to the image in the 'asset' folder
     },
     social: {
-      github: ``, // `https://github.com/zoomKoding`,
-      linkedIn: ``, // `https://www.linkedin.com/in/jinhyeok-jeong-800871192`,
-      email: ``, // `zoomkoding@gmail.com`,
+      github: `https://github.com/Raoun4136`, // `https://github.com/zoomKoding`,
+      linkedIn: `https://www.linkedin.com/in/raoun4136`, // `https://www.linkedin.com/in/jinhyeok-jeong-800871192`,
+      email: `qkrtjddh1212@naver.com`, // `zoomkoding@gmail.com`,
     },
   },
 
