@@ -1,0 +1,3 @@
+User-agent: *
+Sitemap: https://raoun4136.github.io/sitemap/sitemap-index.xml
+Host: https://raoun4136.github.io
